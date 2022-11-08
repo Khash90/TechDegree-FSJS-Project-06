@@ -1,0 +1,56 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "project_name": "Random Quote Generator",
+        "description": "This app displays random Quotes , the user can interact by clicking 'next' to see the next Quote or after few seconds the next Quote will be appeared , also random coloring has been set with each random quote a random color on the page will be appeared.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://khash90.github.io/TechDegree-FSJS-Project-01/",
+        "github_link": "https://github.com/Khash90/TechDegree-FSJS-Project-01.git",
+        "image_urls": ["/static/images/1.random quotes.jpg",
+                      "/static/images/1.random quotes-large.jpg"]
+      },
+      {
+        "id": 2,
+        "project_name": "Data Pagination and Filtering",
+        "description": "In this app a long list of students will appear along with some information about them, on each page only 9 students has to be shown ,also there is a search-bar ,it will search by letters or full name and bring as many matches is there.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://khash90.github.io/TechDegree-FSJS-Project-02/",
+        "github_link": "https://github.com/Khash90/TechDegree-FSJS-Project-02.git",
+        "image_urls": ["/static/images/2.data-pagination-and-filtering.jpg",
+                       "/static/images/2.data-pagination-and-filtering-large1.jpg",
+                       "/static/images/2.data-pagination-and-filtering-large2.jpg"]
+      },
+      {
+        "id": 3,
+        "project_name": "Responsive Form",
+        "description": "In this app, we see some the powers of JavaScript along with validations , this is a responsive form where it reacts to how user put inputs , if the written information is correct(according to validation) there will be a green tick and if not a warning icon will appear on that tap. also in this form at some tabs like payment method , user is provided with different options to choose from.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://khash90.github.io/TechDegree-FSJS-Project-03/",
+        "github_link": "https://github.com/Khash90/TechDegree-FSJS-Project-03.git",
+        "image_urls": ["/static/images/3.responsive-form.jpg",
+                       "/static/images/3.responsive-form-large1.jpg",
+                       "/static/images/3.responsive-form-large2.jpg"]
+      },
+      {
+        "id": 4,
+        "project_name": "OOP Game Show App",
+        "description": "This app is all about guessing a phrase letter by letter , user is provided with a keyboard and 5hearts which are user's tries , if the letter guessed right it will appear in the empty box or boxes , if not the user will lose a heart , also ending is provided with two different pages , Win or Lose pages.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://khash90.github.io/TechDegree-FSJS-Project-04/",
+        "github_link": "https://github.com/Khash90/TechDegree-FSJS-Project-04.git",
+        "image_urls": ["static/images/4.word-hunter.jpg",
+                       "/static/images/4.word-hunter-large.jpg"]
+      },
+      {
+        "id": 5,
+        "project_name": "Employee Directory",
+        "description": "In this project a list of employees appear , each employee has its own basic information also additional information about each person is available when you click on them and from the opened tab you are also able to look for the next or previous user's additional info, and of course a search ba is provided if you want to search for a name.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://khash90.github.io/TechDegree-FSJS-Project-05/",
+        "github_link": "https://github.com/Khash90/TechDegree-FSJS-Project-05.git",
+        "image_urls": ["/static/images/5.public-api-request.jpg",
+                       "/static/images/5.public-api-request-large1.jpg" ]
+      }
+    ]
+  }

@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+ 
+    h1 Let's make the web great together!
+ 
+    p This is my portfolio , which will tell you about all the skills I have managed to earn and some samples from some of my FullStack JavaScript projects
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+    
+      each project in projects 
+        .cell 
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
+            h5= project.project_name 
+      
+ 
+
